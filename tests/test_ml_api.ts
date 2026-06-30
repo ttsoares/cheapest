@@ -1,3 +1,7 @@
+// The Mercado Livre Search API documentation
+// is referenced in docs/knowledge/MERCADO_LIVRE_OAUTH.md.
+
+
 /**
  * AI CONTRACT
  *

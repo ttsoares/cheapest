@@ -1,7 +1,17 @@
+function required(name: string): string {
+    const value = process.env[name];
+
+    if (!value) {
+        throw new Error(`Missing environment variable: ${name}`);
+    }
+
+    return value;
+}
+
 export const config = {
-    clientId: process.env.ML_CLIENT_ID!,
-    clientSecret: process.env.ML_CLIENT_SECRET!,
-    accessToken: process.env.ML_ACCESS_TOKEN!,
+    clientId: required("ML_CLIENT_ID"),
+    clientSecret: required("ML_CLIENT_SECRET"),
+    accessToken: required("ML_ACCESS_TOKEN"),
     siteId: process.env.ML_SITE_ID ?? "MLB",
     apiBaseUrl:
         process.env.ML_API_BASE_URL ??

@@ -2,6 +2,8 @@
 
 ## Read first
 
+Read every listed document completely before writing code.
+
 docs/architecture/SPEC.md
 docs/architecture/DECISIONS.md
 docs/knowledge/README.md
