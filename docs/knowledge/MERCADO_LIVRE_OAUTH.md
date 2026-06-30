@@ -21,15 +21,14 @@ https://api.mercadolibre.com/oauth/token \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -H "Accept: application/json" \
 -d "grant_type=authorization_code" \
--d "client_id=243084240279329" \
--d "client_secret=qtCMt8hoEdUokWZb88GdWyAX0t9CdJvZ" \
--d "code=TG-6a3c7f51fc77e80001af6758-16478880" \
--d "redirect_uri=https://whereisit.vercel.app"
+-d "client_id=<CLIENT_ID>" \
+-d "client_secret=<CLIENT_SECRET>" \
+-d "code=<TG-CODE>" \
+-d "redirect_uri=<REDIRECT_URI>"
 
 Returns
 
 - access_token
-- refresh_token
 - expires_in
 
 ## Notes

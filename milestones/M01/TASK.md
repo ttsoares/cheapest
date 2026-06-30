@@ -49,3 +49,14 @@ If verification fails,
 analyze the failure,
 modify the implementation,
 and try again.
+
+## Authentication
+
+A valid Mercado Livre access token is expected to exist in .env.
+
+If the token is invalid or expired:
+
+- stop;
+- report the error;
+- do not redesign OAuth;
+- do not ask for new dependencies.

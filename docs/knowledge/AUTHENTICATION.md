@@ -18,10 +18,12 @@ Access token:
 May expire.
 
 Refresh token:
-Available.
+Made by human.
 
 If authentication fails:
 
-1. Try refresh token.
-2. If refresh fails, stop and report.
-3. Never redesign OAuth.
+Stop execution.
+Report that the Mercado Livre access token is missing or expired.
+Do not attempt to implement OAuth.
+Do not attempt to obtain a new token automatically.
+Wait for a human to update .env.
