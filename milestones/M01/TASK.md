@@ -62,3 +62,11 @@ If the token is invalid or expired:
 - report the error;
 - do not redesign OAuth;
 - do not ask for new dependencies.
+
+## Configuration is already implemented.
+
+Use:
+
+    src/common/config.ts
+
+Do not implement another configuration loader.

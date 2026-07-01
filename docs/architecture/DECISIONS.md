@@ -32,3 +32,17 @@ Less brittle and faster.
 
 Status:
 Accepted.
+
+## Configuration
+
+The project uses `dotenv` to load configuration.
+
+Configuration is accessed exclusively through:
+
+    src/common/config.ts
+
+Business code must never:
+
+- call `dotenv.config()`;
+- read `.env` directly;
+- parse `.env` manually.

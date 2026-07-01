@@ -1,3 +1,14 @@
+import dotenv from "dotenv";
+
+// Load environment variables from the repository root.
+const result = dotenv.config();
+
+if (result.error) {
+    throw new Error(
+        "Unable to load .env from the repository root."
+    );
+}
+
 function required(name: string): string {
     const value = process.env[name];
 
@@ -16,4 +27,4 @@ export const config = {
     apiBaseUrl:
         process.env.ML_API_BASE_URL ??
         "https://api.mercadolibre.com",
-};
+} as const;
