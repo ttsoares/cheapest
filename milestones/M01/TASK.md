@@ -9,6 +9,7 @@ docs/architecture/DECISIONS.md
 docs/knowledge/README.md
 docs/knowledge/AUTHENTICATION.md
 docs/knowledge/MERCADO_LIVRE_OAUTH.md
+docs/knowledge/MERCADO_LIVRE_SEARCH_API.md
 
 If information required to complete the milestone is missing, stop and explain what is missing instead of inventing a solution.
 
@@ -24,6 +25,7 @@ tests/test_ml_api.ts
 - OAuth is already implemented.
 - Do not implement or redesign OAuth.
 - Do not introduce unnecessary dependencies.
+- Use existing project tooling; verifier runtime dependencies are allowed.
 - Do not work on future milestones.
 - Modify only the files required for M01.
 

@@ -54,4 +54,6 @@ Verifier passes.
 
 Commit created.
 
-Update SPEC milestone status.
+Update project/STATUS.md.
+
+Update SPEC.md only if the milestone definition itself changes.

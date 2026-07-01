@@ -4,7 +4,7 @@ TypeScript
 
 ## Package manager:
 
-pnpm
+npm
 
 ## Formatter:
 
