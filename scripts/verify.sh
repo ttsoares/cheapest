@@ -13,7 +13,7 @@ echo
 
 case "$MILESTONE" in
     M01)
-        npx tsx tests/test_ml_api.ts
+        exec npx tsx tests/test_ml_api.ts
         ;;
     *)
         echo "STATUS: FAIL"

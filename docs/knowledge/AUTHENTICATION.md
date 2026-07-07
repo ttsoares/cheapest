@@ -9,7 +9,10 @@ Implemented by:
 Human
 
 Business code:
-Must not implement OAuth.
+The application does not perform the OAuth authorization flow.
+A human performs the initial authorization and provides the first access token and refresh token.
+The application may automatically refresh expired access tokens using the stored refresh token.
+
 
 Credentials:
 Loaded from .env

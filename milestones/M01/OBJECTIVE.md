@@ -16,15 +16,7 @@ test_ml_api.ts
 
 ## Behavior
 
-Search:
-
-ssd 1tb sata
-
-Print:
-
-- title
-- price
-- permalink
+Verify authenticated communication with the Mercado Livre API.
 
 ## Constraints
 
@@ -44,16 +36,9 @@ Script executes successfully.
 
 Returns >=5 products.
 
-HTTP errors handled.
-
-Exit code 0.
 
 ## Definition of Done
 
 Verifier passes.
-
-Commit created.
-
-Update project/STATUS.md.
 
 Update SPEC.md only if the milestone definition itself changes.

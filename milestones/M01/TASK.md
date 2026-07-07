@@ -58,6 +58,8 @@ and try again.
 ## Verifier Output Contract
 
 The verifier SHALL produce deterministic, human-readable output.
+Exactly one request means one attempt.
+Automatic retries are prohibited.
 
 Output format:
 
